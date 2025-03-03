@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Darshan00010
 - 👀 I’m interested in ...web development 
-- 🌱 I’m currently learning ... javascript react html css
+- 🌱 I’m currently learning ... javascript AngularJS html css
 - 💞️ I’m looking to collaborate on ...coders
 - 📫 How to reach me ... darshankn82@gmail.com
 
