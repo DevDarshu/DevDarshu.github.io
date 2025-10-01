@@ -1,10 +1,57 @@
-- 👋 Hi, I’m @Darshan00010
-- 👀 I’m interested in web development 
-- 🌱 I’m currently learning  javascript AngularJS html css
-- 💞️ I’m looking to collaborate with developers
-- 📫 How to reach me ... darshankn82@gmail.com
+# 👋 Hi, I’m Darshan K N (@Darshan00010)
 
-<!---
-Darshan00010/Darshan00010 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🌐 **Full-Stack Web Developer | JavaScript & Angular Enthusiast**  
+
+---
+
+## 🔭 About Me
+- I’m passionate about **web development** and building **responsive, modern applications**.
+- Currently learning **JavaScript (ES6+), Angular 20 (Standalone Components), HTML, CSS, Tailwind CSS, Node.js & Express.js**.
+- Always curious to explore new **technologies** and **tools** in the web ecosystem.
+
+---
+
+## 🌱 I’m Currently Learning
+- Advanced **JavaScript & TypeScript**
+- **Angular 20** (Standalone Components)
+- **React** for front-end development
+- **Node.js & Express.js** for backend development
+- **MongoDB & SQL** for database management
+- **Tailwind CSS & SCSS** for styling
+
+---
+
+## 💻 Skills
+### Frontend
+- Angular 20, React
+- HTML, CSS, SCSS, Tailwind CSS, Bootstrap, Material Angular
+
+### Backend
+- Node.js, Express.js
+
+### Database
+- MongoDB, SQL
+
+### Tools & Version Control
+- Git, SVN
+- VS Code, Chrome DevTools
+
+---
+
+## 🤝 I’m Looking to Collaborate On
+- Open-source projects related to **full-stack development**
+- Innovative web applications using **Angular, React, Node.js**
+- Projects that integrate **sustainable tech solutions**
+
+---
+
+## 📫 How to Reach Me
+- Email: [darshankn82@gmail.com](mailto:darshankn82@gmail.com)
+- LinkedIn: [https://linkedin.com/in/darshankn](https://linkedin.com/in/darshankn)
+- GitHub: [https://github.com/Darshan00010](https://github.com/Darshan00010)
+
+---
+
+## ⚡ Fun Fact
+- I document my **learning journey** and share coding insights to inspire fellow developers. #DevStruggleSaga
+
