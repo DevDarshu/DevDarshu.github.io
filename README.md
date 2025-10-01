@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Darshan K N (@Darshan00010)
+# 👋 Hi, I’m Darshan K N
 
 🌐 **Full-Stack Web Developer | JavaScript & Angular Enthusiast**  
 
