@@ -53,5 +53,5 @@
 ---
 
 ## ⚡ Fun Fact
-- ** I’m a big **anime fan**! Ask me about my favorite series.  
+I’m a big **anime fan**! Ask me about my favorite series.  
 
