@@ -47,8 +47,8 @@
 
 ## 📫 How to Reach Me
 - Email: [darshankn82@gmail.com](mailto:darshankn82@gmail.com)
-- LinkedIn: [https://linkedin.com/in/darshankn](https://linkedin.com/in/darshankn)
-- GitHub: [https://github.com/Darshan00010](https://github.com/Darshan00010)
+- LinkedIn: [https://www.linkedin.com/in/darshan-k-n-8a26b3198/](https://www.linkedin.com/in/darshan-k-n-8a26b3198/)
+- X-Twitter: [https://x.com/Darshuu__](https://x.com/Darshuu__)
 
 ---
 
