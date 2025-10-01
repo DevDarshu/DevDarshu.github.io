@@ -41,7 +41,7 @@
 ## 🤝 I’m Looking to Collaborate On
 - Open-source projects related to **full-stack development**
 - Innovative web applications using **Angular, React, Node.js**
-- Projects that integrate **sustainable tech solutions**
+- Projects that integrate **sustainable tech solutions*
 
 ---
 
