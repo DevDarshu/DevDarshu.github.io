@@ -53,5 +53,5 @@
 ---
 
 ## ⚡ Fun Fact
-- I document my **learning journey** and share coding insights to inspire fellow developers. #DevStruggleSaga
+- ** I’m a big **anime fan**! Ask me about my favorite series.  
 
