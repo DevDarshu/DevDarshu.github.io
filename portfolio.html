@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan K N - Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #2e64e5;
+            /* Neon Blue */
+            --secondary-color: #b8f2e6;
+            /* Soft Teal */
+            --background-dark: #0a0a1a;
+            /* Deep Space Blue */
+            --text-light: #e0e0f0;
+            /* Faint Star White */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background-dark);
+            color: var(--text-light);
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        .orbitron {
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .text-gradient {
+            background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .typing-cursor {
+            display: inline-block;
+            width: 2px;
+            background-color: var(--primary-color);
+            animation: blink 0.7s infinite;
+            margin-left: 2px;
+        }
+
+        @keyframes blink {
+
+            0%,
+            50%,
+            100% {
+                opacity: 1;
+            }
+
+            25%,
+            75% {
+                opacity: 0;
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .grid-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(to right, rgba(46, 100, 229, 0.1) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(46, 100, 229, 0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: pan-grid 60s linear infinite;
+            z-index: -1;
+        }
+
+        @keyframes pan-grid {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: 50px 50px;
+            }
+        }
+    </style>
+</head>
+
+<body class="relative min-h-screen">
+
+    <div class="grid-bg"></div>
+
+    <main class="container mx-auto p-4 md:p-8 relative z-10">
+
+        <!-- Header -->
+        <header class="text-center my-10 fade-in">
+            <h1 id="title" class="orbitron text-3xl md:text-5xl lg:text-6xl text-gradient font-bold mb-2"></h1>
+            <p id="subtitle" class="orbitron text-sm md:text-lg text-gray-400 opacity-0">Angular Developer | JavaScript
+                | TypeScript | React & Node.js Enthusiast</p>
+        </header>
+
+        <!-- About Section -->
+        <section
+            class="bg-slate-900 bg-opacity-70 backdrop-blur-sm rounded-3xl p-6 md:p-10 mb-8 border border-slate-700 shadow-lg fade-in">
+            <h2 class="orbitron text-xl md:text-3xl text-gradient font-bold mb-4">
+                <i class="fas fa-terminal mr-2 text-primary-color"></i> About Me
+            </h2>
+            <p class="text-gray-300 leading-relaxed text-sm md:text-base">
+                I'm Darshan , a passionate web developer specializing in Angular,JavaScript,Typescript,Jquery. Currently
+                expanding my expertise in MEAN and MERN stack to build scalable, high-performance applications.
+
+        </section>
+
+        <!-- Skills Section -->
+        <section
+            class="bg-slate-900 bg-opacity-70 backdrop-blur-sm rounded-3xl p-6 md:p-10 mb-8 border border-slate-700 shadow-lg fade-in">
+            <h2 class="orbitron text-xl md:text-3xl text-gradient font-bold mb-4">
+                <i class="fas fa-code mr-2 text-primary-color"></i> Skills
+            </h2>
+
+            <!-- Frontend Frameworks -->
+            <div class="mb-4">
+                <h3 class="font-semibold text-secondary-color mb-2">Frontend Frameworks</h3>
+                <ul class="list-disc list-inside text-gray-400 space-y-1">
+                    <li>Angular 20 (Standalone Components)</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <!-- Programming Languages -->
+            <div class="mb-4">
+                <h3 class="font-semibold text-secondary-color mb-2">Programming Languages</h3>
+                <ul class="list-disc list-inside text-gray-400 space-y-1">
+                    <li>JavaScript (ES6+)</li>
+                    <li>TypeScript</li>
+                </ul>
+            </div>
+            <!-- CSS Libraries -->
+            <div class="mb-4">
+                <h3 class="font-semibold text-secondary-color mb-2">CSS Libraries</h3>
+                <ul class="list-disc list-inside text-gray-400 space-y-1">
+                    <li>HTML & CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Material Angular</li>
+                    <li>SCSS</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+            </div>
+
+            <!-- Backend & Database -->
+            <div class="mb-4">
+                <h3 class="font-semibold text-secondary-color mb-2">Backend & Database</h3>
+                <ul class="list-disc list-inside text-gray-400 space-y-1">
+                    <li>Node.js & Express.js</li>
+                    <li>MongoDB & SQL</li>
+                </ul>
+            </div>
+
+            <!-- Version Control -->
+            <div>
+                <h3 class="font-semibold text-secondary-color mb-2">Version Control</h3>
+                <ul class="list-disc list-inside text-gray-400 space-y-1">
+                    <li>Git</li>
+                    <li>SVN</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section
+            class="bg-slate-900 bg-opacity-70 backdrop-blur-sm rounded-3xl p-6 md:p-10 mb-8 border border-slate-700 shadow-lg fade-in">
+            <h2 class="orbitron text-xl md:text-3xl text-gradient font-bold mb-4">
+                <i class="fas fa-briefcase mr-2 text-primary-color"></i> Projects
+            </h2>
+
+            <p class="text-gray-300 text-sm md:text-base leading-relaxed mb-4">
+                Currently cooking some amazing projects! Stay tuned for updates. 🚀
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Example placeholder cards -->
+                <div
+                    class="bg-slate-800 rounded-xl p-6 border border-slate-700 flex flex-col items-center justify-center text-gray-400 hover:border-primary-color transition-colors duration-300">
+                    <i class="fas fa-spinner fa-pulse text-4xl mb-2 text-secondary-color"></i>
+                    <p>T-shirt store - Coming Soon</p>
+                </div>
+                <div
+                    class="bg-slate-800 rounded-xl p-6 border border-slate-700 flex flex-col items-center justify-center text-gray-400 hover:border-primary-color transition-colors duration-300">
+                    <i class="fas fa-spinner fa-pulse text-4xl mb-2 text-secondary-color"></i>
+                    <p>Saas Project - Coming Soon</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section
+            class="bg-slate-900 bg-opacity-70 backdrop-blur-sm rounded-3xl p-6 md:p-10 mb-8 border border-slate-700 shadow-lg fade-in">
+            <h2 class="orbitron text-xl md:text-3xl text-gradient font-bold mb-4">
+                <i class="fas fa-satellite-dish mr-2 text-primary-color"></i> Connect With Me
+            </h2>
+            <div class="flex flex-wrap justify-around gap-4 md:gap-8 text-center">
+                <a href="https://www.linkedin.com/in/darshan-k-n-8a26b3198" target="_blank"
+                    class="w-20 md:w-28 p-4 rounded-xl hover:bg-slate-800 transition-colors duration-300 group">
+                    <i
+                        class="fab fa-linkedin-in text-4xl text-gray-400 group-hover:text-primary-color transition-colors"></i>
+                    <p class="mt-2 text-sm text-gray-400 group-hover:text-text-light">LinkedIn</p>
+                </a>
+                <a href="https://x.com/Darshuu__" target="_blank"
+                    class="w-20 md:w-28 p-4 rounded-xl hover:bg-slate-800 transition-colors duration-300 group">
+                    <i
+                        class="fab fa-twitter text-4xl text-gray-400 group-hover:text-primary-color transition-colors"></i>
+                    <p class="mt-2 text-sm text-gray-400 group-hover:text-text-light">Twitter</p>
+                </a>
+                <a href="https://github.com/DevDarshu" target="_blank"
+                    class="w-20 md:w-28 p-4 rounded-xl hover:bg-slate-800 transition-colors duration-300 group">
+                    <i
+                        class="fab fa-github text-4xl text-gray-400 group-hover:text-primary-color transition-colors"></i>
+                    <p class="mt-2 text-sm text-gray-400 group-hover:text-text-light">GitHub</p>
+                </a>
+                <a href="mailto:darshankn82@gmail.com"
+                    class="w-20 md:w-28 p-4 rounded-xl hover:bg-slate-800 transition-colors duration-300 group">
+                    <i
+                        class="fas fa-envelope text-4xl text-gray-400 group-hover:text-primary-color transition-colors"></i>
+                    <p class="mt-2 text-sm text-gray-400 group-hover:text-text-light">Email</p>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center p-4 text-gray-500 text-xs md:text-sm mt-8">
+        <p>Darshan K N &copy; 2025 | All Rights Reserved</p>
+    </footer>
+
+    <!-- Typing Effect -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            async function typeSentence(sentence, eleRef, delay = 150) {
+                const letters = sentence.split("");
+                let i = 0;
+                while (i < letters.length) {
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                    eleRef.append(letters[i]);
+                    i++;
+                }
+                // Add cursor
+                const cursor = document.createElement("span");
+                cursor.className = "typing-cursor";
+                eleRef.appendChild(cursor);
+            }
+
+            const titleEle = document.getElementById('title');
+            const subtitleEle = document.getElementById('subtitle');
+
+            typeSentence("Darshan K N", titleEle).then(() => {
+                subtitleEle.style.opacity = 1;
+            });
+        });
+    </script>
+
+</body>
+
+</html>
